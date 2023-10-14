@@ -31,11 +31,11 @@ const PostCard = ({ post }) => {
             alt={post.author.name}
             height={30}
             width={30}
-            className="align-middle rounded-full"
+            className="align-middle object-contain rounded-full"
             src={post.author.photo.url}
           />
 
-          <p className="inine align-middle text-gray-700 ml-2 text-lg">
+          <p className="inline align-middle text-gray-700 ml-2 text-lg">
             {post.author.name}
           </p>
         </div>
